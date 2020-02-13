@@ -16,4 +16,14 @@ What is the need? How are we trying to meet it? Who's going to use this?
 
 # How to Contribute
 
-* Check the GitHub project above for open issues
+Follow the steps below to take this project & use it to bootstrap a new CivicTechWR project up & running. Once you've done so, replace these instructions with your own.
+
+1. Click the plus sign at the top right of GitHub, next to your name.
+2. Click "Import repository"
+3. Enter https://github.com/CivicTechWR/ProjectTemplate in the "Your old repository's clone URL" box
+4. Make sure the CivicTechWR organization is selected (ask @KristinaTaylor for access if you don't have it)
+5. Give your repository a meaningful name
+6. Begin the import
+7. Go into your new project & create an issue from the "Project Bootstrapping" template. 
+8. Follow the steps in that first issue
+9. That's it :raised_hands:
