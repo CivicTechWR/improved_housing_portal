@@ -18,4 +18,4 @@ We're so excited that you've decided to create a new project!
 - [ ] Define some project milestones (eg: Proof of Concept, Minimum Testable Product, Minimum Useful Product)
 - [ ] Give your project milestones some dates
 - [ ] Tell the #organizing channel when you want to run your first show & tell
-- [ ]
+- [ ] Share an update about the project in #general & invite people to join your team!
