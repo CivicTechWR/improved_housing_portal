@@ -285,7 +285,7 @@ h3 {
 
 h1 {
   font-size: 55px;
-  line-height: 74px;
+  line-height: 72px;
 }
 
 h2 {
@@ -313,18 +313,18 @@ input[type="email"] {
 }
 
 textarea {
-  min-height: 81px;
+  min-height: 80px;
   width: 100%;
   border: 1px solid #cccccc;
   margin-top: 8px;
-  margin-bottom: 21px;
-  padding: 7px 10px;
+  margin-bottom: 20px;
+  padding: 8px 10px;
   font-size: 14px;
 }
 
 p {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 24px;
   color: #dadada;
   margin: 0;
 }
@@ -336,7 +336,7 @@ p.medium-spacing {
 
 p.large-spacing {
   font-size: 20px;
-  line-height: 37px;
+  line-height: 36px;
 }
 
 form p {
@@ -348,7 +348,7 @@ h4 {
   font-size: 18px;
   line-height: 32.4px;
   font-weight: 400;
-  margin-top: 41px;
+  margin-top: 40px;
   margin-bottom: 2px;
 }
 
@@ -368,7 +368,7 @@ h4 {
   border: 1px solid rgba(69, 88, 128, 0.2);
   border-radius: 4px;
   color: #4d4d4d;
-  padding: 48px 51px 33px 44px;
+  padding: 48px 52px 32px 44px;
 }
 
 .form-container p,
@@ -399,11 +399,11 @@ button,
 }
 
 .footer {
-  height: 182px;
+  height: 180px;
   width: 100%;
   background-color: #292929;
   margin-top: 132px;
-  padding: 0 75px 0 84px;
+  padding: 0 76px 0 84px;
 }
 
 .aboutus {
@@ -414,7 +414,7 @@ button,
   line-height: 15px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 
 a {
