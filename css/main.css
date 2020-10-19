@@ -398,6 +398,13 @@ button,
   cursor: pointer;
 }
 
+button:disabled,
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled {
+  cursor: not-allowed;
+}
+
 .footer {
   height: 180px;
   width: 100%;
