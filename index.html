@@ -20,24 +20,25 @@
 </head>
 
 <body>
-  <div class="column" style="max-width: 1120px; margin: 20px
+  <div id="main-column" class="column" style="max-width: 1120px; margin: 20px
   auto 0 auto; position: relative;">
     <img src="img/logo.svg" alt="housing WR logo" width="200" height="38" style="margin-right: auto;"></img>
 
     <div class="row" style="margin-top: 92px;">
-      <div class="column" style="max-width: 688px;">
+      <div class="column" style="width: 100%; max-width: 688px;">
         <h1 style="margin-bottom: 32px;">Where is Waterloo region's housing data?</h1>
         <div class="column" style="max-width: 516px;">
           <p class="large-spacing">We want to start a community effort of collecting and visualizing
             regional housing data to bring about transparency and local change.</p>
         </div>
 
-        <div class="form-container" id="emailform" style="max-width: 512px; margin-top: 84px;">
+        <div class="form-container" id="emailform" style="width: 100%; max-width: 512px; margin-top: 84px;">
           <form name="submit-to-google-sheet">
             <h3 style="margin-bottom: 32px;">Sign up to get updates on our project</h3>
             <div class="row">
               <label for="email">Email</label>
-              <input id="email" label="email" name="email" type="email" placeholder="Email" required>
+              <input id="email" label="email" name="email" type="email" placeholder="Email" required
+                style="min-width: 0;">
             </div>
             <h4>Have regional housing related data or want to get involved?</h4>
             <p>Let us know what you can contribute and we will reach out.</p>
@@ -60,8 +61,7 @@
         </div>
 
       </div>
-      <div class="column" style="max-width: 476px; margin-top: 68px;
-      margin-left: 124px;">
+      <div class="column" id="problem-statement-column" style="max-width: 476px; margin-top: 68px;">
         <div class="row" style="margin-bottom: 100px;">
           <div class="column">
             <h2 style="margin-bottom: 20px;">What’s the problem?</h2>
@@ -87,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="row" style="margin-top: 212px;">
+    <div class="row" id="cta-row">
       <div class="column" style="max-width: 344px;">
         <h2 style="margin-top: 32px; margin-bottom: 32px;">We’ve already started the groundwork</h2>
         <p class="medium-spacing">We’ve complied a collection of community resources and data around regional housing.

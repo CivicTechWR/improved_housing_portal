@@ -435,8 +435,43 @@ a {
   color: white;
 }
 
+#problem-statement-column {
+  margin-left: 124px;
+}
+
 @media only screen and (max-width: 1120px) {
   .desktop-only {
     display: none;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  #main-column {
+    padding: 0 10px;
+  }
+
+  .form-container {
+    padding: 28px 20px;
+  }
+
+  #problem-statement-column {
+    margin-left: 0;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  #cta-row {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
   }
 }
