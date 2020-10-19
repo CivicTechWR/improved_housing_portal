@@ -13,5 +13,5 @@ form.addEventListener("submit", submitHandler);
 
 document.getElementById("contributeyourdata").addEventListener("click", e => {
   document.getElementById("emailform").scrollIntoView();
-  document.getElementById("emailinput").focus();
+  document.getElementById("email").focus();
 });
