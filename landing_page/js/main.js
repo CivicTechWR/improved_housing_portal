@@ -4,9 +4,18 @@ const form = document.forms["submit-to-google-sheet"];
 
 const submitHandler = e => {
   e.preventDefault();
+
+  document.getElementById("signupbutton").disabled = true;
+  document.getElementById("signupbutton").innerText = "...";
+
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
-    .then(response => console.log("Success!", response))
-    .catch(error => console.error("Error!", error.message));
+    .then(response => {
+      document.getElementById("signupbutton").innerText = "Thank you!";
+    })
+    .catch(error => {
+      document.getElementById("signupbutton").disabled = false;
+      document.getElementById("signupbutton").innerText = "Sign up";
+    });
 };
 
 form.addEventListener("submit", submitHandler);
