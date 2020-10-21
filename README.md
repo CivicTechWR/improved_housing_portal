@@ -13,6 +13,6 @@ How might we to design a resource where people in Waterloo region can understand
 * **Miro Board:** https://miro.com/welcomeonboard/nz0W9QrZ6hUj8Eq2vIuHcpVpetmsslOiFh2YYwFqJu5P8MgRC8SqsIszII73eox2
 * **Figma:** https://www.figma.com/file/EDBhjT60hMeNZiYSsydlqT/housing?node-id=593%3A136
 * **Project Manager:** Sukhi & Jas
-* **Technologies used:** Undecided
+* **Technologies used:** HTML, CSS and JS
 
 
